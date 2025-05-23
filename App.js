@@ -93,9 +93,9 @@ import DadosNegociacao from './screens/servicos/promessa_de_compra_e_venda/dados
 
 // PC =====================================================================
 import WelcomeWeb from './web/Welcome';
-import LoginWeb from './web/LoginWeb';
-import RegisterWeb from './web/RegisterWeb';
-import RecoverPasswordWeb from './web/RecoverPasswordWeb';
+// import LoginWeb from './web/LoginWeb';
+// import RegisterWeb from './web/RegisterWeb';
+// import RecoverPasswordWeb from './web/RecoverPasswordWeb';
 
 const Stack = createNativeStackNavigator();
 
