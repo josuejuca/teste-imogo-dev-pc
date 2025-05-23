@@ -93,7 +93,7 @@ import DadosNegociacao from './screens/servicos/promessa_de_compra_e_venda/dados
 
 // PC =====================================================================
 import WelcomeWeb from './web/Welcome';
-// import LoginWeb from './web/LoginWeb';
+import LoginWeb from './web/LoginWeb';
 // import RegisterWeb from './web/RegisterWeb';
 // import RecoverPasswordWeb from './web/RecoverPasswordWeb';
 
@@ -176,8 +176,8 @@ export default function App() {
         {/* PC ================================================= */}
         <Stack.Screen name='WelcomeWeb' component={WelcomeWeb} options={{ headerShown: false }} />
         <Stack.Screen name='LoginWeb' component={LoginWeb} options={{ headerShown: false }} />
-        <Stack.Screen name='RegisterWeb' component={RegisterWeb} options={{ headerShown: false }} />
-        <Stack.Screen name='RecoverPasswordWeb' component={RecoverPasswordWeb} options={{ headerShown: false }} />
+        {/* <Stack.Screen name='RegisterWeb' component={RegisterWeb} options={{ headerShown: false }} />
+        <Stack.Screen name='RecoverPasswordWeb' component={RecoverPasswordWeb} options={{ headerShown: false }} /> */}
         {/* PC ================================================= */}
         <Stack.Screen
           name="TutorialPWA"
