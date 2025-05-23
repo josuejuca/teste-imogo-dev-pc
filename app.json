@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "imoGo [DEV]",
+    "slug": "pwa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "themeColor": "#000", 
+      "backgroundColor": "#000", 
+      "lang":"pt-BR",
+      "manifest": {
+        "short_name": "PWA",
+        "name": "Meu Progressive Web App",
+        "start_url": "/",
+        "display": "standalone", 
+        "background_color": "#000",
+        "theme_color": "#000",
+        "description": "imoGo PWA",
+        "icons": [
+          {
+            "src": "./assets/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+          },
+          {
+            "src": "./assets/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+        ]
+      }
+    }
+  }
+}
